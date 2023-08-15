@@ -1,11 +1,10 @@
 # jsonrest-go
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/mbranch/jsonrest-go.svg)](https://pkg.go.dev/github.com/mbranch/jsonrest-go)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mbranch/jsonrest-go)](https://goreportcard.com/report/github.com/mbranch/jsonrest-go)
-[![GoDoc](https://godoc.org/net/http?status.svg)](https://godoc.org/github.com/mbranch/jsonrest-go)
-[![go.dev](https://img.shields.io/badge/go.dev-pkg-007d9c.svg?style=flat)](https://pkg.go.dev/github.com/mbranch/jsonrest-go)
 
 Package jsonrest implements a microframework for writing RESTful web
-applications.
+applications[^1].
 
 Endpoints are defined as:
 
@@ -59,3 +58,7 @@ func logging(next jsonrest.Endpoint) jsonrest.Endpoint {
     }
 }
 ```
+
+[^1]:
+    This repo is a copy (not a fork) of [github.com/deliveroo/jsonrest-go](https://github.com/deliveroo/jsonrest-go) which was
+    deleted. It will be maintained separately from the original repo.

@@ -1,9 +1,0 @@
-linters:
-  enable:
-    - deadcode
-    - errcheck
-    - goimports
-    - golint
-    - govet
-    - unconvert
-    - varcheck
